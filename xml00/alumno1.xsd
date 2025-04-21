@@ -6,6 +6,7 @@
                 <xs:element name="nombre" type="xs:string" />
                 <xs:element name="nacimiento" type="xs:string" />
             </xs:sequence>
+            <xs:attribute name="correo" type=""></xs:attribute>
         </xs:complexType>
     </xs:element>
 </xs:schema>

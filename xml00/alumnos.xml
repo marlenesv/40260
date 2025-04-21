@@ -1,0 +1,12 @@
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="alumnos.xsd"
+<alumnos>
+    <alumno>
+        <nombre>Mar</nombre>
+        <nacimiento>30/abril/2005</nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Mario</nombre>
+        <nacimiento>27/abril/2005</nacimiento>
+    </alumno>
+</alumnos>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="alumno1.xsd">
-<nombre> Alex</nombre>
-<nacimiento>13/mayo/2006</nacimiento>
+  xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <nombre> Alex</nombre>
+    <nacimiento>13/mayo/2006</nacimiento>
 </alumno>
