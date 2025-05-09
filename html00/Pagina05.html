@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         img {
-            box-shadow: 10px 10px 10px rgb(196, 134, 208);
+            box-shadow: 10px 10px 10px rgb(144, 196, 234);
         }
         figure {
             text-align: center;
@@ -17,8 +17,8 @@
 </head>
 <body>
     <h1> Random Picture</h1>
-    <figure>
-        <img src="https://picsum.photos/id/1/200/200" alt="">
+    <!-- <figure> -->
+        <!-- <img src="https://picsum.photos/id/1/200/200" alt="">
         <figcaption>
             Jhon
         </figcaption>
@@ -27,15 +27,39 @@
         <img src="https://picsum.photos/id/2/200/200" alt="">
         <figcaption>
             Jane
-        </figcaption>
-    </figure>
+        </figcaption> -->
+    <!-- </figure> -->
     
     <div id="demo"></div>
 
     <script>
         let ejemplo = document.getElementById("demo")
         console.log(ejemplo)
-        ejemplo.innerHTML = "hola"
+
+       function imagen(id) {
+
+        const componente= "<figure>"+
+            '<img src="https://picsum.photos/id/' +id+ '/200/200" alt="x">'+
+            "<figcaption> John </figcaption>"+
+            "</figure>"
+        return componente    
+
+
+       }
+
+       const Picture = (id) => {
+            return `
+                <figure>
+                <img src="https://picsum.photos/id/${id}/200/200" alt="">
+                <figcaption> Jhon</figcaption>
+            `
+            
+
+       } 
+
+        // ejemplo.innerHTML = "hola" + imagen(1) + imagen(2)
+        ejemplo.innerHTML = "hola" + Picture (1)
+
     </script>
 </body>
 </html>
